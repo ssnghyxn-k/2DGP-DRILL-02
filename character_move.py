@@ -20,7 +20,6 @@ def run_circle():
         y = r * math.sin(math.radians(d)) + cy
 
         draw_boy(x, y)
-
     pass
 
 def run_top():
@@ -29,12 +28,18 @@ def run_top():
     pass
 
 def run_right():
+    for y in range(500,0,10):
+        draw_boy(600,y)
     pass
 
 def run_bottom():
+    for x in range(800,0,10):
+        draw_boy(x,50)
     pass
 
 def run_left():
+    for y in range(0,550,10):
+        draw_boy(0,y)
     pass
 
 
@@ -46,8 +51,8 @@ def run_rectangle():
 
 
 while True:
-    run_circle()
-    #run_rectangle()
+    #run_circle()
+    run_rectangle()
     break
 
 close_canvas()
