@@ -23,22 +23,22 @@ def run_circle():
     pass
 
 def run_top():
-    for x in range(0,800,10):
-        draw_boy(x,550)
+    for x in range(50,750,10):
+        draw_boy(x,90)
     pass
 
 def run_right():
-    for y in range(500,0,10):
-        draw_boy(600,y)
+    for y in range(90,550,10):
+        draw_boy(750,y)
     pass
 
 def run_bottom():
-    for x in range(800,0,10):
-        draw_boy(x,50)
+    for x in range(750,50,-10):
+        draw_boy(x,550)
     pass
 
 def run_left():
-    for y in range(0,550,10):
+    for y in range(550,90,-10):
         draw_boy(0,y)
     pass
 
